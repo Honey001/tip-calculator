@@ -230,7 +230,7 @@ input {
 }
 .result-container p {
 	color: var(--PRI-LIGHT-GREEN);
-	font-size: 3rem;
+	font-size: 1.5rem;
 }
 .result-container label {
 	color: var(--NEU-LIGHTEST-GRAY);
@@ -286,5 +286,8 @@ input {
 	}
 	.result-amount-container {
 		gap: 2rem;
+	}
+	.result-container p {
+		font-size: 3rem;
 	}
 }
