@@ -44,12 +44,12 @@ const activateReset = () => {
 
 const getInputValues = () => ({
 	bill: Number(billInput.value.trim()) || 0,
-	people: Number(peopleInput.value.trim()) || 0,
-	customTipValue: Number(customInput.value),
+	people: Number(peopleInput.value.trim()),
+	customTipValue: Number(customInput.value.trim()),
 });
 const calculate = () => {
 	const { bill, people, customTipValue } = getInputValues();
-	if (people === 0) {
+	if (peopleInput.value.trim() !== "" && people === 0) {
 		showError();
 		return;
 	}
