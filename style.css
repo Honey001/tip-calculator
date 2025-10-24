@@ -230,7 +230,7 @@ input {
 }
 .result-container p {
 	color: var(--PRI-LIGHT-GREEN);
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 .result-container label {
 	color: var(--NEU-LIGHTEST-GRAY);
